@@ -267,7 +267,7 @@ def combineAudio(audioList, id):
 def combineVideo(id):
     print("Combining video")
 
-    input_video = f'tmp/yt/{id}.webm'
+    input_video = f'tmp/yt/{id}.mp4'
     input_audio = f'output/{id}/{id}.wav'
     output_video = f'output/{id}/{id}.mp4'
 
