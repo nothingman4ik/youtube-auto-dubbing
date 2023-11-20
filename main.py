@@ -32,7 +32,7 @@ def main():
         'skip_download': False,
         'outtmpl': os.path.join('tmp/yt', '%(id)s'),
         'quiet': True,
-        'format': 'mp4',
+        'merge_output_format': 'mp4',
 
     }
 
